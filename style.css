@@ -1,0 +1,66 @@
+* { 
+   margin: 0;
+   padding: 0;
+   list-style: nome;
+}
+
+header { 
+    background-color: cadetblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+     width: 100px;
+     height: auto;
+}
+
+
+header div ul {
+        display: flex;
+}
+
+header div ul li {
+     margin-right: 15px;
+}
+
+
+header div ul li a {
+     text-decoration: nome;
+     color: wheat;
+    font-weight: 800;
+}
+
+
+.section-01 {
+    padding: 250px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url(imagens/lion-3290180_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 300px;
+}
+ 
+
+.section-01 button {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-color: rgb(red, green, blue);
+
+}
+
+
+
+
+
+
