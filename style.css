@@ -5,15 +5,15 @@
 }
 
 header { 
-    background-color: cadetblue;
-    padding: 20px;
+    background-color: rgb(160, 124, 95);
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 header img {
-     width: 100px;
+     width: 99px;
      height: auto;
 }
 
@@ -23,20 +23,20 @@ header div ul {
 }
 
 header div ul li {
-     margin-right: 15px;
+     margin-right: 20px;
 }
 
 
 header div ul li a {
      text-decoration: nome;
-     color: wheat;
-    font-weight: 800;
+     color: rgb(238, 200, 129);
+    font-weight: 900;
 }
 
 
 .section-01 {
-    padding: 250px;
-    background-color: blueviolet;
+    padding: 400px;
+    background-color: rgb(200, 144, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,13 +49,120 @@ header div ul li a {
     padding: 300px;
 }
  
-
+/* estilização do botão (SAIBA MAIS)
+- aqui fazemos o caminho exato de
+onde se encontra o botão */
 .section-01 button {
-    width: 150px;
-    height: 45px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.438);
-    border-color: rgb(red, green, blue);
+    width: 150px; /*largura do
+    botão*/
+    height: 45px; /*altura do botão*/
+    border-radius: 10px; /*arredondamento da borda*/
+    background-color: rgba(248, 226, 226, 0.438); /*cor de fundo
+    do botão*/
+}
+
+
+/* chamamos nossa segunda sessão
+para estilização */ 
+.section-02 {
+    padding: 250px; /*preenchimento/
+    tamanho da sessão*/
+    background-color: rgb(99, 87, 95); /*cor de fundo da sessão*/
+    display: flex; /*tornando a
+    sessão flex e deixando os intens
+    lado a lado*/
+    justify-content: space-evenly; /*justificação do conteúdo - 
+    usando o spa-evenly como
+    paramento*/
+    align-items: center; /*
+    alinhamento dos intens na vertical - trazendo para o
+    centro*/
+}
+/* aqui estamos chamando nosso
+parágrafo para estilização*/
+.section-02 p {
+    margin: 50px; /*aqui colocamos
+    uma espaçamento nas margens de 
+    todos os lados*/
+    color: rgb(14, 13, 13); /*cor da letra*/
+    font-size: 30px; /*tamanho da
+    letra*/
+    font-weight: 300; /*peso da
+    letra*/
+}
+/* aqui estamos estilizando nosso
+subtítulo (H2) */
+.section-02 h2 {
+    margin: 30px; /*aqui colocamos
+    uma espaçamento nas margens de
+    todos os lados*/
+    color: rgb(32, 26, 26); /*cor da letra*/
+    font-size: 40px; /*tamanho da
+    letra*/
+    font-weight: 300; /*peso da 
+    letra*/
+}
+/* aqui chamamos nossa terceira e 
+última sessão para estilização*/
+.section-03 {
+    background-image:url(imagens/lion-3099986_1280.jpg) ; /*
+    habilitamos uma imagem de fundo
+    para a sessão*/
+    background-attachment: fixed;/*
+    deixamos a imagem ´´parada`` na
+    sessão, ou seja FIXADA*/
+    background-repeat: no-repeat; /*
+    repetição da imagem desabilitada*/
+    background-size: cover; /*preenchimento total da imagem
+    na sessão / espaço disponível*/
+    background-position: center; /*
+    posição em que a imagem será
+    apresentação*/
+    padding: 350px; /*tmanho / 
+    preenchimento da sessão*/
+}
+
+/* aqui habilitamos o rodapé para
+estilização*/
+footer {
+   background-color:rgb(211, 23, 23); /*
+   de fundo do rodapé*/
+   display: flex; /*tornando a
+   sessão flex e deixando os itens
+   lado a lado*/
+   justify-content: center; /*
+   justificativa do conteúdo ao 
+   centro*/
+   padding: 35px; /*tamanho / 
+   preenchimento do rodapé*/
+}
+/* trazendo nossa lista não ordenada
+para estilização */
+footer div ul {
+    display: flex; /*aqui tornamos
+    nossa lista um elemento flex,
+    com isso as listas ficaram lado
+    a lado */
+}
+/* aqui estamos trabalhando
+diretamento dentro das listas */
+footer div ul li {
+    margin-right: 25px; /*atribuimos
+    um espaçamento entre as listas,
+    para que tenham uma melhor
+    visualização*/
+}
+/* aqui estamos trabalhando dentro
+da ancora */
+footer div ul li a {
+    color: white; /*cor da letra*/
+    text-decoration: none; /*
+    decoração do texto desabilitada
+    - retirando o sublinhado*/
+    font-weight: 300; /*peso da
+    fonte*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo /
+    família de fonte*/
 
 }
 
