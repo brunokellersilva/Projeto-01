@@ -32,7 +32,10 @@ header div ul li a {
      color: rgb(238, 200, 129);
     font-weight: 900;
 }
-
+header div ul li a:hover {
+color: black;
+transition: 1.0s;
+}
 
 .section-01 {
     padding: 400px;
@@ -60,7 +63,10 @@ onde se encontra o botão */
     background-color: rgba(248, 226, 226, 0.438); /*cor de fundo
     do botão*/
 }
-
+.section-01 button:hover{
+color: rgba(75, 6, 236, 0.884);
+transition: 0.8s;
+}
 
 /* chamamos nossa segunda sessão
 para estilização */ 
@@ -165,9 +171,48 @@ footer div ul li a {
     família de fonte*/
 
 }
+footer div ul li a:hover {
+    color: rgb(32, 26, 26);
+    transition: 0.8s;
+}
+
+header i { /*estilizando ícone*/
+    color:white ; /*cores do ícone*/
+    font-size: 40px; /*tamanho do ícone*/
+    background-color: gray; /*cor de fundo do elemento*/
+    padding: 20px; /*respiro/preenchimento da cor de fundo*/
+    border-radius: 15px; /*aplicando o efeíto ao passar*/
+}
+
+header i:hover {
+background-color: rgb(13, 11, 17);
+transition: 0.6s;
+}
+
+/* ESTILIZAÇÃO TELA 2 */
 
 
 
+.section-tela2 {
+    background-image: url(imagens/lion-5751867_1280.jpg);
+    padding: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-tela2 p {
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 500;
+    background-color: rgba(143, 209, 76, 0.171);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-tela2 span {
+    color: aqua;
+    font-weight: bold;
+}
 
 
 
