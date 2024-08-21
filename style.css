@@ -36,7 +36,6 @@ header div ul li a:hover {
 color: black;
 transition: 1.0s;
 }
-
 .section-01 {
     padding: 400px;
     background-color: rgb(200, 144, 252);
@@ -51,8 +50,7 @@ transition: 1.0s;
     background-position: center;
     padding: 300px;
 }
- 
-/* estilização do botão (SAIBA MAIS)
+ /* estilização do botão (SAIBA MAIS)
 - aqui fazemos o caminho exato de
 onde se encontra o botão */
 .section-01 button {
@@ -67,7 +65,6 @@ onde se encontra o botão */
 color: rgba(75, 6, 236, 0.884);
 transition: 0.8s;
 }
-
 /* chamamos nossa segunda sessão
 para estilização */ 
 .section-02 {
@@ -169,7 +166,6 @@ footer div ul li a {
     fonte*/
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo /
     família de fonte*/
-
 }
 footer div ul li a:hover {
     color: rgb(32, 26, 26);
@@ -210,8 +206,122 @@ transition: 0.6s;
 }
 
 .section-tela2 span {
-    color: aqua;
-    font-weight: bold;
+    color: rgb(9, 14, 14);
+    font-weight: bold
+}
+.section-nova{
+   padding: 150px; /*preenchimento da sessão */
+   background: linear-gradient(180deg,#9c4701e8 8.33%, #020203 100%);
+}
+/*div pai - dentro dele existe 3 caixas */
+.div-pai {
+   display: flex; /*tornando os itens flex, deixando as
+   caixas lado a lado*/
+   justify-content: center; /*justificando os itens ao
+   centro */
+   margin-bottom: 20px;
+}
+/* estilização das caixas (div filho) */
+.div-pai div {
+    width: 200px; /*largura da caixa */
+    height: 250px; /*altura da caixa */
+     background-image:url(imagens/leão-02.jpg); /*cor de fundo da caixa*/
+    margin-right: 20px; /*espaçamento entre as caixas(div)*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-pai2 {
+    display: flex; /*tornando os itens flex, deixando as
+    caixas lado a lado*/
+    justify-content: center; /*justificando os itens ao
+    centro */
+}
+.div-pai2 div {
+    width: 200px; /*largura da caixa */
+    height: 250px; /*altura da caixa */
+    background-color: rgb(9, 127, 206); /*cor de fundo da caixa*/
+    margin-right: 20px; /*espaçamento entre as caixas(div)*/
+}
+.div-pai .div-filho1 {
+background-image: url(imagens/visao-do-leao-na-natureza_23-2150374836.avif);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.div-filho1:hover{
+ width: 210px;
+height:290px ;
+transition: 0.8s;
+border-radius: 30px;
+background-image: url(imagens/leao-em-paisagem-de-floresta-seca_23-2151661787.avif);
+}
+.div-pai .div-filho2 {
+ background-image: url(imagens/quadro-pintura-leao-80x100-elton-brunetti-jpeg.webp);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.div-filho2:hover{
+    width: 210px;
+   height:290px ;
+   transition: 0.8s;
+   border-radius: 30px;
+   background-image: url(imagens/leao-colorido-imagem-imagem-leao-majestoso-imagens-geradas-por-ia_873370-5105.avif)
+}
+.div-pai .div-filho3 {
+background-image: url(imagens/leao-pintura-cabeca-de-leao-na-frente_677258-12.avif);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.div-filho3:hover{
+    width: 210px;
+   height:290px ;
+   transition: 0.8s;
+   border-radius: 30px;
+   background-image: url(imagens/cdb782c5363e4fbef52c4d27c034cdc0.jpg)
+}
+.div-pai2 .div-filho4 {
+    background-image: url(imagens/leao-em-paisagem-de-floresta-seca_23-2151661787.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .div-filho4:hover{
+        width: 210px;
+       height:290px ;
+       transition: 0.8s;
+       border-radius: 30px;
+       background-image: url(imagens/visao-do-leao-na-natureza_23-2150374836.avif)
+    }
+.div-pai2 .div-filho5 {
+    background-image: url(imagens/leao-colorido-imagem-imagem-leao-majestoso-imagens-geradas-por-ia_873370-5105.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-filho5:hover{
+    width: 210px;
+   height:290px ;
+   transition: 0.8s;
+   border-radius: 30px;
+   background-image: url(imagens/quadro-pintura-leao-80x100-elton-brunetti-jpeg.webp)
+}
+.div-pai2 .div-filho6 {
+    background-image: url(imagens/cdb782c5363e4fbef52c4d27c034cdc0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.div-filho6:hover{
+    width: 210px;
+   height:290px ;
+   transition: 0.8s;
+   border-radius: 30px;
+   background-image: url(imagens/leao-pintura-cabeca-de-leao-na-frente_677258-12.avif)
 }
 
 
