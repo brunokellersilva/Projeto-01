@@ -29,7 +29,7 @@ header div ul li {
 
 header div ul li a {
      text-decoration: nome;
-     color: rgb(238, 200, 129);
+     color: rgb(226, 181, 76);
     font-weight: 900;
 }
 header div ul li a:hover {
@@ -38,7 +38,7 @@ transition: 1.0s;
 }
 .section-01 {
     padding: 400px;
-    background-color: rgb(200, 144, 252);
+    background-color: rgb(20, 19, 20);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +58,11 @@ onde se encontra o botão */
     botão*/
     height: 45px; /*altura do botão*/
     border-radius: 10px; /*arredondamento da borda*/
-    background-color: rgba(248, 226, 226, 0.438); /*cor de fundo
+    background-color: rgba(248, 148, 17, 0.342); /*cor de fundo
     do botão*/
 }
 .section-01 button:hover{
-color: rgba(75, 6, 236, 0.884);
+color: rgba(9, 6, 214, 0.822);
 transition: 0.8s;
 }
 /* chamamos nossa segunda sessão
@@ -70,7 +70,7 @@ para estilização */
 .section-02 {
     padding: 250px; /*preenchimento/
     tamanho da sessão*/
-    background-color: rgb(99, 87, 95); /*cor de fundo da sessão*/
+    background-color: rgba(214, 95, 15, 0.89); /*cor de fundo da sessão*/
     display: flex; /*tornando a
     sessão flex e deixando os intens
     lado a lado*/
@@ -87,7 +87,7 @@ parágrafo para estilização*/
     margin: 50px; /*aqui colocamos
     uma espaçamento nas margens de 
     todos os lados*/
-    color: rgb(14, 13, 13); /*cor da letra*/
+    color: rgb(8, 8, 8); /*cor da letra*/
     font-size: 30px; /*tamanho da
     letra*/
     font-weight: 300; /*peso da
@@ -128,7 +128,7 @@ subtítulo (H2) */
 /* aqui habilitamos o rodapé para
 estilização*/
 footer {
-   background-color:rgb(211, 23, 23); /*
+   background-color:rgb(88, 86, 86); /*
    de fundo do rodapé*/
    display: flex; /*tornando a
    sessão flex e deixando os itens
@@ -324,5 +324,44 @@ background-repeat: no-repeat;
    background-image: url(imagens/leao-pintura-cabeca-de-leao-na-frente_677258-12.avif)
 }
 
+.section-ultima {
+   padding: 200;
+   background-color: rgb(124, 119, 115);
+   display: flex;
+   justify-content: space-evenly;
+}
+.div-título h2 {
+  color: white;
+   margin: 20px;
+   font-size: 25px;
+}
+.div-título p {
+ color: rgb(238, 234, 234);
+ margin: 20px;
+ font-size: 20px;
+  font-weight: 400;
+}
+.div-iframe iframe {
+    border-radius: 10px;
+    margin-right: 30px;
+}
 
+/* tag section - atual */
+.section-atual{
+    padding: 200px;
+    background-color: rgb(53, 45, 36);
+    display: flex;
+}
+/* tag - rodape */
+.rodape {
+  padding: 100px;
+background-color: rgba(8, 8, 8, 0.938);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.div-line img {
+    width: 80px;
+}
 
