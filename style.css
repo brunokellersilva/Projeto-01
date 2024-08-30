@@ -32,10 +32,12 @@ header div ul li a {
      color: rgb(226, 181, 76);
     font-weight: 900;
 }
+
 header div ul li a:hover {
 color: black;
 transition: 1.0s;
 }
+
 .section-01 {
     padding: 400px;
     background-color: rgb(20, 19, 20);
@@ -58,9 +60,10 @@ onde se encontra o botão */
     botão*/
     height: 45px; /*altura do botão*/
     border-radius: 10px; /*arredondamento da borda*/
-    background-color: rgba(248, 148, 17, 0.342); /*cor de fundo
+    background-color: rgb(145, 89, 17); /*cor de fundo
     do botão*/
 }
+
 .section-01 button:hover{
 color: rgba(9, 6, 214, 0.822);
 transition: 0.8s;
