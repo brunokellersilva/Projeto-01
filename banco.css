@@ -1,79 +1,149 @@
-:root {
-  --font-color: white;
-  --module-size: 1rem;
-  --font-family:helvetica, arial, sans-serif;
-  --primary-color:tomato;
-}
 *{
  margin: 0px;
- box-sizing: border-box;
+ padding: 0px;
  font-family: Georgia, 'Times New Roman', Times, serif;
  list-style: nome;
 }
 
-body {
-  height: 100px;
-}
-
 header {
-  background-color:rgb(78, 135, 168) ;
-  padding: 50px;
+  background-color:rgba(74, 153, 199, 0.911) ; /**/
+  padding: 70px; 
 }
 
-header div ul {
-  display: flex;
-}
-
-.type-header {
+.type-header ul {
   display: flex;
   justify-content: end;
-  flex-wrap: wrap;
 }
 
-header li a {
- color:white; 
- margin-right: 25px; 
+.type-header ul li a {
+ color:rgb(231, 223, 223); 
+ margin-left: 20px;
+ text-emphasis: none;
 }
 
-header div ul li a {
-  text-decoration: nome;
-  color: rgb(233, 232, 230);
- font-weight: 500;
-}
-
-header div ul li a:hover {
+.type-header ul li a:hover {
   color: black;
   transition: 1.0s;
 }
 
-.sessao {
-  padding: 40px;
-  width: auto;
-  background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
-  flex-wrap: wrap;
+.sessao-01 {
+  padding: 200px;
+  background: linear-gradient(180deg, #8ab7be 8.33%, rgb(64, 136, 136) 100%);
+
 }
 
-.sessao h1 {
-  font-size: 3rem;
-  color: rgba(0, 0, 0, 0.712);
+.sessao-01 h1 {
+  font-size: 45px;
+  color: rgb(92, 90, 90);
+  font-weight: 600;
 }
 
-.sessao p {
-  font-size: 40px; 
+.sessao-01 p { /**/
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 40px
+  
 }
   
 
-  .sessao button {
+  .sessao-01 a button {
   padding: 25px;
-  border-radius:55px ;
+  border-radius:50px ;
   display: flex; 
   justify-content: space-evenly;
   align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(19, 139, 43);
   }
 
+  .sessao-01 a button:hover{
+    color: rgba(19, 138, 43);
+    transition: 0.8s;
+    color: white;
+    border-color: white;
+    }
+
+.sessao-02 {
+ display: flex;
+ padding: 200px;
+ justify-content: space-evenly;
+ align-items: center;
+ background-color: honeydew;
+}
+
+.div1 p {
+ font-size: 40px;
+ color: rgb(30, 29, 29);
+ font-weight: 500;
+ margin-bottom: 25px;
+}
 
 
+.div1 a button {
+  padding: 25px;
+  border-radius:50px ;
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(46, 180, 73);
+}
 
+.div1 a button:hover {
+  color: rgb(68, 180, 90);
+    transition: 0.8s;
+    color: white;
+    border-color: white;
+}
+
+.div2 img {
+  width: 380px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.sessao-03 {
+ padding: 200px;
+ background-color: rgb(247, 248, 248);
+}
+
+.sessao-03 h2{
+ text-align: center;
+ color: rgb(12, 12, 20);
+ font-size: 40px;
+ 
+}
+
+.sessao-03 p {
+ font-size: 20px;
+ color: rgba(22, 125, 209, 0.564);
+ text-align: justify;
+ margin-top: 30px;
+}
+
+.sessao-03 a button {
+  padding: 20px;
+  border-radius: 50px;
+  width: 300px;
+  color: rgb(63, 20, 161);
+  background-color: rgb(138, 109, 153);
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.line {
+ width: 70%;
+ margin: 40px auto;
+} 
+
+.sessao-03 img {
+ margin-left: 200px;
+
+
+}
 
 
 
